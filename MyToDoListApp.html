@@ -1,0 +1,46 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="todostyle.css">
+        <title>MyToDoList</title>
+    </head>
+
+    <body>
+        <div id="main">
+
+          <h1 id="header">My ToDo List</h1>
+
+            <div id="add_todo">
+                <input type="text" id="input_todo" maxlength="18" placeholder="Enter task name">
+                <input type="date" id="due" style="margin-right: 1%;">     
+                <button id="add_button">Add</button>
+                <button id="clear_button">Delete All</button>
+            </div>
+
+            <div id="todo_list_main">
+                <h3>Upcoming tasks</h3>
+                <hr>
+                <div id="todo_list"></div>
+                <button id="clear_todo">Delete</button>
+            </div>
+            <div id="done_list_main">
+                <h3>Completed tasks</h3>
+                <hr>
+                <div id="done_list"></div>
+                <button id="clear_done">Delete</button>
+            </div>
+        </div>
+      <div class="this">
+        How to use Just enter upcoming task name in text box and select due date , then press <b>"Add"</b> button to add it in schedule and <b>"Delete"</b> button to remove it from list. 
+    </div>
+      <div class="blink"><span>Made by Utkarsh</span></div>
+      <script src="todoworking.js"></script>
+    </body>
+</html>
